@@ -1,4 +1,4 @@
-# Curso: Capacitación para Python Data Science
+# Curso: Capacitación de Python Data Science
 
 ## Objetivo del Repositorio
 Diseñado para llevar el curso llamado "Capacitación para Python Data Science". El objetivo de este curso es proporcionar una comprensión profunda de Python y sus aplicaciones en la ciencia de datos, abarcando desde los fundamentos del lenguaje hasta la implementación de ejercicios más complejos.
