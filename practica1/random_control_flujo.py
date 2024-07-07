@@ -1,8 +1,3 @@
-import random
-
-# Generar una lista de números enteros aleatorios
-numeros = [random.randint(1, 50) for _ in range(30)]
-
 # Inicializar variables para la suma de números pares e impares
 suma_pares = 0
 suma_impares = 0
