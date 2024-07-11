@@ -27,7 +27,7 @@ for calificacion in calificaciones:
     estudiante = calificacion['estudiante']
     materia = calificacion['materia']
     nota = calificacion['calificacion']
-    
+
     # Sumar y contar las calificaciones por materia
     if materia in calificaciones_por_materia:
         calificaciones_por_materia[materia]['total'] += nota
@@ -53,16 +53,16 @@ estudiante_min_calificacion = min(calificaciones_por_estudiante, key=lambda est:
 
 # 6. Imprimir los resultados
 print("Promedio de Calificaciones por Materia:")
-for materia, promedio in [...completar...].items():
+for materia, promedio in [promedio_por_materia].items():
     print(f"{materia}: {promedio:.2f}")
 
 print("\nCalificaciones por Estudiante:")
-for estudiante, notas in [...completar...].items():
+for estudiante, notas in [calificaciones_por_estudiante].items():
     print(f"{estudiante}: {notas}")
 
 print("\nMaterias Únicas Evaluadas:")
-for materia in [...completar...]:
+for materia in [materias_unicas]:
     print(materia)
 
-print(f"\nEstudiante con la Calificación Más Alta: {...completar...} (Calificación: {max(calificaciones_por_estudiante[...completar...])})")
-print(f"Estudiante con la Calificación Más Baja: {...completar...} (Calificación: {min(calificaciones_por_estudiante[...completar...])})")
+print(f"\nEstudiante con la Calificación Más Alta: {estudiante_max_calificacion} (Calificación: {max(calificaciones_por_estudiante[estudiante_max_calificacion])})")
+print(f"Estudiante con la Calificación Más Baja: {estudiante_min_calificacion} (Calificación: {min(calificaciones_por_estudiante[estudiante_min_calificacion])})")
