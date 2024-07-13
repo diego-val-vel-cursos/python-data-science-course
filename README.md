@@ -1,6 +1,6 @@
-# Curso: Capacitación de Python Data Science
+# Curso: Capacitación de Python para Data Science
 
-## Objetivo del Repositorio
+## Objetivo del repositorio
 Diseñado para llevar el curso llamado "Capacitación para Python Data Science". El objetivo de este curso es proporcionar una comprensión profunda de Python y sus aplicaciones en la ciencia de datos, abarcando desde los fundamentos del lenguaje hasta la implementación de ejercicios más complejos.
 
 ## Temario
@@ -34,7 +34,7 @@ Diseñado para llevar el curso llamado "Capacitación para Python Data Science".
 5.1. Algoritmos de clasificación y su implementación  
 5.2. Árboles y grafos y su implementación  
 
-## Tecnologías Usadas
+## Tecnologías usadas
 - Python 3.8
 - NumPy
 - Pandas
@@ -52,7 +52,7 @@ Este archivo `docker-compose.yml` configura un ambiente de desarrollo completo p
    - **Directorio de trabajo**: `/app`
    - **Comando**: Instala las dependencias listadas en `requirements_python-env.txt` y mantiene el contenedor en ejecución con un shell interactivo.
 
-## Levantando los Contenedores
+## Levantando los contenedores
 Para levantar los contenedores con el entorno de desarrollo, se deben de seguir estos pasos:
 
 1. Asegurarse de que el motor de Docker esté corriendo.
@@ -62,7 +62,7 @@ Para levantar los contenedores con el entorno de desarrollo, se deben de seguir 
    docker-compose up -d
 4. Lo anterior le indica a Docker que debe ejecutar el contenido del archivo docker-compose.yml.
 
-## Todos los Comandos para Entrar al Contenedor y Corroborar las Versiones de las Tecnologías
+## Todos los comandos para entrar al contenedor y corroborar las versiones de las tecnologías
 
 ```sh
 # Acceder al contenedor
